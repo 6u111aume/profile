@@ -1,0 +1,140 @@
+@font-face {
+font-family: 'Benguiat Book BT';
+font-style: normal;
+font-weight: normal;
+src: local('Benguiat Book BT'), url('benguiat-book-bt-58894e1cdcbfd.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Benguiat Bold BT';
+font-style: normal;
+font-weight: normal;
+src: local('Benguiat Bold BT'), url('BENGUIAB.woff') format('woff');
+}
+
+body {
+  background-image: url("https://i0.wp.com/cdnb.artstation.com/p/assets/images/images/007/741/093/large/didier-konings-scene-mattepaint-main-concept.jpg?1508206882");
+  background-size: auto;
+  font-family: 'Benguiat Book BT';
+  color: white;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  text-shadow: 0px 1px 30px white;
+}
+
+h1, h2, h3 {
+  color: red;
+  text-shadow: 0px 1px 30px red;
+  font-family: 'Benguiat Bold BT';
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+  font-family: 'Benguiat', arial;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  text-shadow: 0px 1px 30px white;
+}
+
+button {
+  border: 1px solid red;
+  background-color: red;
+  border-radius: 4px;
+  box-shadow: 0px 1px 30px red;
+  color: white;
+  font-size: 16px;
+  font-family: 'Benguiat Book BT';
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+button:hover {
+  border: 1px solid white;
+  background-color: white;
+  color: red;
+  border-radius: 4px;
+  box-shadow: 0px 1px 30px white;
+  cursor: pointer;
+}
+
+.container {
+  background: rgba(0,0,0,.4);
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(255,255,255,.3);
+  margin: 40 auto;
+  width: 500px;
+}
+
+@media (max-width: 960px) and (min-width: 720px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    margin: 30 auto;
+    width: 500px;
+    padding: 20px;
+  }
+}
+@media (max-width: 720px) and (min-width: 540px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    margin: 20 auto;
+    width: 400px;
+    padding: 20px;
+  }
+}
+@media (max-width: 540px) and (min-width: 0px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    margin: 20 auto;
+    width: 300px;
+    padding: 20px;
+  }
+}
+
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.list-inline-li {
+  color: red;
+  text-shadow: 0px 1px 30px red;
+  display: inline-block;
+  padding: Opx 16px;
+  float: center;
+  margin: 0 15px 0 15px;
+}
+
+.list-inline-li:hover {
+  text-decoration: none;
+  color: white;
+  text-shadow: 0px 1px 30px white;
+}
+
+.img-circle {
+  border-radius: 100px;
+  box-shadow: 0px 10px 30px rgba(255,255,255,.3);
+  opacity: : 0.8
+}
